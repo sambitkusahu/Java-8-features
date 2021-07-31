@@ -1,6 +1,5 @@
-package com.sambit.java8features.codinginterview;
+package com.sambit.java8features.streamcodinginterview;
 
-import java.util.Comparator;
 import java.util.function.BiConsumer;
 
 public class BiConsumerExample {

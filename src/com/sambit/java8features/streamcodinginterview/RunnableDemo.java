@@ -1,4 +1,4 @@
-package com.sambit.java8features.codinginterview;
+package com.sambit.java8features.streamcodinginterview;
 
 public class RunnableDemo implements Runnable{
     @Override
