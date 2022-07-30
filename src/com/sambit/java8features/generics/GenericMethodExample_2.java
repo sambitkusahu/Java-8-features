@@ -15,4 +15,6 @@ public class GenericMethodExample_2 {
         map.put(key, value);
         return map;
     }
+
 }
+

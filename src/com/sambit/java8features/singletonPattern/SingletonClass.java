@@ -7,7 +7,8 @@ public class SingletonClass {
 
     private static SingletonClass singletonObj = new SingletonClass();
 
-    //Private Constructor, so class cant be instantiated from outside.
+    //Private Constructor, so class can't be instantiated from outside.
+    // class obj = new class(), in this way object can't be created.
     private SingletonClass(){}
 
     //get the instance of the class

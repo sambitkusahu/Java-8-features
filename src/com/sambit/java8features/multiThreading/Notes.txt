@@ -1,0 +1,15 @@
+Join:
+The Join method allows one thread to wait for the completion of another thread.
+There are two types of threads.
+    -> User Thread
+    -> Daemon Thread
+When we invoke the join() method, the calling thread goes into a waiting state. It remains in the waiting state until the referenced thread terminates.
+The join method will keep waiting if the referenced thread is blocked which can become an issue as the calling thread will become non-responsive. Java provided two overloaded method that takes timeout period.
+Join() throws InterruptedException if the reference thread is interrupted.
+If the referenced thread unable to start or already terminated, join will return immediately.
+    -> User Thread
+    -> Daemon Thread
+
+Threads created by user or developer is called user thread.
+Daemon Threads are managed by JVM to take care of garbage collection.
+
